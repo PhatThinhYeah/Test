@@ -1,8 +1,9 @@
 #include <iostream>
+#include "add.h"
 using namespace std;
 
 int main()
 {
-    cout << "Hello World!";
+    cout << "Sum :" << sum(1, 2);
     return 0;
 }
